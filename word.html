@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="word.css">
+</head>
+<body>
+	<h1>Угадай слово</h1>
+	<div class="app" id="app">
+		<input placeholder="Здесь будет загаднное слово " type="" name="" id="input" disabled><br>
+
+		<input class="input" type="" name="" id='word' maxlength="1" onkeypress="enter(event)">
+		<div class="gif">
+			<img src="house1.gif" id=gif>
+			<div>
+				<button onclick="start()">Начать игру</button>
+				<button onclick="check()">Проверка</button>
+			</div>
+			<img src="house2.gif" id="img">
+		</div>
+		
+	</div>
+	<script src="word.js"></script>
+</body>
+</html>
